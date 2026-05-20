@@ -1,5 +1,8 @@
 # NFL 4th Down Decision Model
 
+## Article
+[The NFL's 4th Down Problem Isn't What You Think](https://docs.google.com/document/d/1DQQqfEyn4NBig2NrpASjEkl9HZpnhtpCmDx7z5I63BE/edit?usp=sharing)
+
 ## Overview
 This project analyzes 39,367 4th down plays across 10 NFL seasons (2016–2025) to evaluate coaching decision quality. Using play-by-play data from nfl_data_py and an XGBoost classifier, we model the optimal 4th down decision for every situation and compare it against what coaches actually did — quantifying who makes the best and worst decisions and what it costs them in win probability.
 
