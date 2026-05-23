@@ -38,6 +38,8 @@ This project analyzes 39,367 4th down plays across 10 NFL seasons (2016-2025) to
 
 ## Repo Structure
 
+## Repo Structure
+```
 nfl-4th-down-analysis/
 ├── data/
 │   ├── raw/              # Raw play-by-play parquet files (not tracked)
@@ -55,6 +57,7 @@ nfl-4th-down-analysis/
 ├── src/
 ├── requirements.txt
 └── README.md
+```
 
 ## How to Run
 1. Clone the repo
