@@ -17,6 +17,18 @@ This project analyzes 39,367 4th down plays across 10 NFL seasons (2016-2025) to
 - **Seattle and New England are the best 4th down defenses**; Las Vegas Raiders are the worst at 36% stop rate
 - **Andy Reid is the best go-for-it coach** by conversion rate, EPA, and WPA across every metric
 
+## Visualizations Preview
+
+![Go-For-It Rate by Season](outputs/figures/go_rate_by_season.png)
+
+![Coach Aggressiveness Rankings](outputs/figures/coach_aggressiveness.png)
+
+![Formation Conversion Rate and EPA](outputs/figures/formation_conversion_epa.png)
+
+![Man vs Zone Stop Rate](outputs/figures/man_vs_zone_stop_rate.png)
+
+![Average WPA per Coach](outputs/figures/coach_wpa.png)
+
 ## Methodology
 - **Data source:** nfl_data_py / nflverse (play-by-play, 2016-2025)
 - **Model:** XGBoost classifier predicting optimal decision (go, punt, field goal)
